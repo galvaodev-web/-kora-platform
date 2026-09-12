@@ -1,0 +1,42 @@
+/* Responsive overrides kept separate while the initial design system is still evolving. */
+
+@media (min-width: 761px) and (max-width: 1050px) {
+  .app-shell {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+
+  .sidebar {
+    padding-inline: 14px;
+  }
+
+  .brand-row > div:last-child,
+  .workspace-card > div:last-child {
+    display: grid;
+  }
+
+  .brand-row strong {
+    font-size: 16px;
+  }
+
+  .brand-row span,
+  .workspace-card span {
+    font-size: 12px;
+  }
+
+  .nav-item {
+    justify-content: space-between;
+    font-size: 14px;
+  }
+
+  .nav-item span {
+    font-size: 11px;
+  }
+
+  .nav-count {
+    display: grid;
+  }
+
+  .main-content {
+    padding-inline: 28px;
+  }
+}
